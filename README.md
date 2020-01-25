@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-dotfiles for my mac setup
+dotfiles & misc setup for arch box
