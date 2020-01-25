@@ -1,0 +1,18 @@
+[roxterm profile]
+font=Source Code Pro 10
+scrollback_lines=15000
+scroll_on_keystroke=1
+show_add_tab_btn=1
+colour_scheme=solarized-dark
+full_screen=0
+maximise=1
+hide_menubar=1
+always_show_tabs=0
+saturation=1.000000
+allow_bold=1
+use_ssh=0
+scrollbar_pos=0
+limit_scrollback=0
+new_tabs_adjacent=1
+term=
+use_custom_command=0

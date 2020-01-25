@@ -1,0 +1,51 @@
+[roxterm colour scheme]
+16=#4c4c4c4c4c4c
+17=#a8a830303030
+18=#202088882020
+19=#a8a888880000
+20=#555555559898
+21=#888830308888
+22=#303088888888
+23=#d8d8d8d8d8d8
+
+# Brewer Dark after terminal.sexy
+# special
+foreground      = #b7b8b9b7b8b9
+foreground_bold = #b7b8b9b7b8b9
+cursor          = #b7b8b9b7b8b9
+background      = #0c0d0e0c0d0e
+
+# black
+0  = #0c0d0e0c0d0e
+8  = #737475737475
+
+# red red
+1  = #e31a1ce31a1c
+9  = #e31a1ce31a1c
+
+# green green
+2  = #31a35431a354
+10 = #31a35431a354
+
+# yellow yellow
+3  = #dca060dca060
+11 = #dca060dca060
+
+# blue blue
+4  = #3182bd3182bd
+12 = #3182bd3182bd
+
+# magenta magenta
+5  = #756bb1756bb1
+13 = #756bb1756bb1
+
+# cyan cyan
+6  = #80b1d380b1d3
+14 = #80b1d380b1d3
+
+# white white
+7  = #b7b8b9b7b8b9
+15 = #fcfdfefcfdfe
+
+palette_size=16
+
