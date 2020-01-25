@@ -9,6 +9,7 @@ echo "I think we are in $FILEDIR"
 
 mkdir -p ~/.config
 
-for folder in config/*(/); do
-    [[ ! -a ~/.config/$folder ]] && ln -s $FILEDIR/config/$folder ~/.config/$folder
+for dir in config/*(/); do
+    matchdir=${dir#"config/"}
+    [[ ! -a ~/.config/$matchdir ]] && ln -s $FILEDIR/config/$matchdir ~/.config/$matchdir
 done
