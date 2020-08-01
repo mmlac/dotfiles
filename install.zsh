@@ -9,7 +9,13 @@ echo "I think we are in $FILEDIR"
 
 mkdir -p ~/.config
 
-for dir in config/*(/); do
-    matchdir=${dir#"config/"}
-    [[ ! -a ~/.config/$matchdir ]] && ln -s $FILEDIR/config/$matchdir ~/.config/$matchdir
+for dir in $FILEDIR/config/*(/); do
+    matchdir=${dir#"$FILEDIR/config/"}
+    [[ ! -a ~/.config/$matchdir ]] && ln -s $dir ~/.config/$matchdir
+done
+
+for customdir in $FILEDIR/custom/*(/); do
+	if [ -e "$customdir/install.zsh" ]; then
+		zsh "$customdir/install.zsh"
+	fi
 done

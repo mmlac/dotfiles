@@ -2,7 +2,7 @@
 font=Source Code Pro 10
 scrollback_lines=15000
 scroll_on_keystroke=1
-show_add_tab_btn=1
+show_add_tab_btn=0
 colour_scheme=solarized-dark
 full_screen=0
 maximise=1
@@ -16,3 +16,4 @@ limit_scrollback=0
 new_tabs_adjacent=1
 term=
 use_custom_command=0
+borderless=0

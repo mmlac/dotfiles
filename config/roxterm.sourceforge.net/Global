@@ -1,6 +1,6 @@
 [roxterm options]
 only_warn_running=1
 encoding=UTF-8
-prefer_dark_theme=1
-colour_scheme=solarized-dark
+prefer_dark_theme=0
+colour_scheme=Nocturne
 warn_close=2
