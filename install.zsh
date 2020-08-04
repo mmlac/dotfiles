@@ -11,7 +11,7 @@ mkdir -p ~/.config
 
 for dir in $FILEDIR/config/*(/); do
     matchdir=${dir#"$FILEDIR/config/"}
-    [[ ! -a ~/.config/$matchdir ]] && ln -s $dir ~/.config/$matchdir
+    [[ ! -a ~"/.config/$matchdir" ]] && ln -s "$dir" ~"/.config/$matchdir"
 done
 
 for customdir in $FILEDIR/custom/*(/); do
