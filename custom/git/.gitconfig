@@ -140,3 +140,5 @@ cmd = emacs --eval \"\
   enabled = true
 [include]
   path = .gitconfig.user
+[credential]
+	helper = libsecret
